@@ -1,3 +1,36 @@
 {
-	"bootstrapped": true
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Compare Side-By-Side",
+		"FuzzyFilePath",
+		"HTML-CSS-JS Prettify",
+		"Inc-Dec-Value",
+		"Jinja2",
+		"LaTeXTools",
+		"Log Highlight",
+		"MagicPython",
+		"Markdown Preview",
+		"Monokai Extended",
+		"Monokai JSON+",
+		"Package Control",
+		"PackageSync",
+		"PlainTasks",
+		"Pretty JSON",
+		"ReIndent",
+		"SelectNextNumber",
+		"SFTP",
+		"SideBarEnhancements",
+		"SJSON",
+		"SortBy",
+		"SublimeAStyleFormatter",
+		"Super Calculator",
+		"Text Pastry",
+		"TrailingSpaces",
+		"WordCount"
+	]
 }
