@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+except Exception as e:
+	exc_type, exc_obj, exc_tb = sys.exc_info()
+	fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+	print('\nException Type: {}, \nCause: {}, \nfname: {}, \nline_no: {}'.format(exc_type, e.args[0], fname, exc_tb.tb_lineno))
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>try_catch</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+import os, sys, pdb, numpy as np, random, argparse, codecs, pickle, time, json
+from pprint import pprint
+from collections import defaultdict as ddict
+from joblib import Parallel, delayed
+from pymongo import MongoClient
+
+${1:}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>py_begin</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

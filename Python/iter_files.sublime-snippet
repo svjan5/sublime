@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+for root, dirs, files in os.walk(PATH):
+	for file in files:
+		fname = os.path.join(root, file)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>read_files</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,21 @@
+[
+	{ "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
+	{ "keys": ["ctrl+k", "ctrl+k"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+shift+c"], "command": "plain_tasks_cancel", "context": [{"key": "selector", "operator": "equal", "operand": "text.todo" }] },
+	{ "keys": ["alt+d"], "command": "find_all_under" },
+	{ "keys": ["ctrl+shift+r"], "command": "reindent"},
+	{ "keys": ["ctrl+r"], "command": "jsbeautify", "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json,source.jade"}] },
+	{ "keys": ["ctrl+r"], "command": "astyleformat", "context": [{"key": "astyleformat_is_enabled", "operator": "equal", "operand": ""}] },
+	{ "keys": ["ctrl+shift+alt+t"], "command": "open_terminal" },
+	{ "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+	{ "keys": ["ctrl+alt+shift+s"], "command": "auto_save" },
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+		
+	{ "keys": ["f2"], "command": "next_bookmark" },
+	{ "keys": ["shift+f2"], "command": "prev_bookmark" },
+	{ "keys": ["ctrl+f2"], "command": "toggle_bookmark" },
+	{ "keys": ["ctrl+shift+f2"], "command": "clear_bookmarks" },
+	{ "keys": ["alt+shift+f2"], "command": "select_all_bookmarks" },
+	{ "keys": ["ctrl+enter"], "command": "build" }
+]

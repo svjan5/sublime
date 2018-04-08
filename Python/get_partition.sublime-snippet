@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+def partition(lst, n):
+        division = len(lst) / float(n)
+        return [ lst[int(round(division * i)): int(round(division * (i + 1)))] for i in range(n) ]
+
+def getChunks(inp_list, chunk_size):
+	return [inp_list[x:x+chunk_size] for x in range(0, len(inp_list), chunk_size)]
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>get_partition</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

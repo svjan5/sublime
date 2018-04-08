@@ -1,0 +1,60 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": ".",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "."
+			},
+			"key": "5058f1af8388633f609cadb75a75dc9d",
+			"label": "."
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "."
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter ."
+			},
+			"key": "3499e86b08c2ca8f8a984c83cbbdade7",
+			"label": "filter ."
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": "\\d"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter \\d"
+			},
+			"key": "c69806285a458859d938b71dbd2802d2",
+			"label": "filter \\d"
+		}
+	],
+	"last_command":
+	{
+		"args":
+		{
+			"context": "selection",
+			"operator": null,
+			"pattern": "\\d"
+		},
+		"command": "text_pastry_modify_selection",
+		"text": "filter \\d"
+	}
+}

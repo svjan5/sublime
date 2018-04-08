@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+from pymongo.errors import BulkWriteError
+bulk = main.initialize_unordered_bulk_op()
+bulk.execute()
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mongo_lite</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

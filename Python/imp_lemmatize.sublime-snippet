@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+import string
+from gensim.utils import lemmatize
+from nltk.corpus import stopwords
+
+ign_words = set(stopwords.words('english')).union(string.punctuation) 
+
+def cleanIt(doc, ign_words):
+	res = [e.decode('utf-8').split('/')[0] for e in lemmatize(doc)]
+	return [e for e in res if e not in ign_words]
+
+def clean_doc(doc_list):
+	num_procs = 40
+	res = Parallel(n_jobs = num_procs)(delayed(cleanIt)(doc, ign_words) for doc in doc_list)
+	return res 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>imp_lemmatize</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

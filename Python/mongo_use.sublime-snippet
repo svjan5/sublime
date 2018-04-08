@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:c_dosa} 	= MongoClient('mongodb://10.24.28.${2:104}:27017/')
+main	= ${1:c_dosa}[${3:}][${4:}]
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mongo_use</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

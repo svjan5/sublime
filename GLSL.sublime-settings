@@ -1,0 +1,10 @@
+{
+	"extensions":
+	[
+		"pix",
+		"fs",
+		"vs",
+		"vertexshader",
+		"fragmentshader"
+	]
+}

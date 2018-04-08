@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+num_procs = ${1:40}
+Parallel(n_jobs = num_procs)(delayed(${2:})(${3:}) for chunk in chunks)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>imp_joblib</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

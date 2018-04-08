@@ -1,0 +1,54 @@
+{
+	"added_words":
+	[
+		"Bhagavad",
+		"Gita",
+		"",
+		"sadhu",
+		"prasadam",
+		"Vedic"
+	],
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"__pycache__/**"
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"1337 Color Scheme",
+		"Compare Side-By-Side",
+		"Edit Preferences",
+		"Indent Size",
+		"Jinja2",
+		"Log Highlight",
+		"Markdown",
+		"Material Theme",
+		"Monokai JSON+",
+		"SideBarEnhancements",
+		"SortBy",
+		"Super Calculator",
+		"Terminality",
+		"Text Pastry",
+		"TrailingSpaces",
+		"Vintage",
+		"WordCount"
+	],
+	"soda_classic_tabs": true,
+	"tab_size": 8,
+	"theme": "Adaptive.sublime-theme",
+	"word_wrap": "auto"
+}
