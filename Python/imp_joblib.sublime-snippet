@@ -1,7 +1,16 @@
 <snippet>
 	<content><![CDATA[
-num_procs = ${1:40}
-Parallel(n_jobs = num_procs)(delayed(${2:})(${3:}) for chunk in chunks)
+
+def ${2:process_data}(pid, ${1:file_list}):
+	${3:}
+
+def partition(lst, n):
+	division = len(lst) / float(n)
+	return [ lst[int(round(division * i)): int(round(division * (i + 1)))] for i in range(n) ]
+
+num_procs = 40
+chunks    = partition(${1:file_list}, num_procs)
+data_list = Parallel(n_jobs = num_procs)(delayed(${2:process_data})(i, chunk) for i, chunk in enumerate(chunks))
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>imp_joblib</tabTrigger>

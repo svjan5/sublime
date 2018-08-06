@@ -25,7 +25,7 @@
 		"*.zip",
 		"__pycache__/**"
 	],
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"font_size": 9,
 	"ignored_packages":
 	[

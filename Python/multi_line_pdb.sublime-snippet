@@ -1,11 +1,9 @@
 <snippet>
 	<content><![CDATA[
-except Exception as e:
-	print('\nException Cause: {}'.format(e.args[0]))
-
+!import code; code.interact(local=vars())
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>try_catch</tabTrigger>
+	<tabTrigger>pdb_multi_line</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.python</scope>
 </snippet>

@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-except Exception as e:
-	print('\nException Cause: {}'.format(e.args[0]))
-
+start_time = time.time()
+${1:}
+print('Time Taken: {}'.format((time.time()-start_time) / 60))
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>try_catch</tabTrigger>
+	<tabTrigger>measure_time</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.python</scope>
 </snippet>

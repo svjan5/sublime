@@ -17,5 +17,6 @@
 	{ "keys": ["ctrl+f2"], "command": "toggle_bookmark" },
 	{ "keys": ["ctrl+shift+f2"], "command": "clear_bookmarks" },
 	{ "keys": ["alt+shift+f2"], "command": "select_all_bookmarks" },
-	{ "keys": ["ctrl+enter"], "command": "build" }
+	{ "keys": ["ctrl+enter"], "command": "build" },
+	{ "keys": ["ctrl+shift+d"], "command": "plain_tasks_complete","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] }
 ]
