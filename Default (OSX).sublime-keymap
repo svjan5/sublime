@@ -1,0 +1,15 @@
+[
+	{ "keys": ["super+k", "super+k"], "command": "toggle_side_bar" },
+	{ "keys": ["alt+d"], "command": "find_all_under" },
+	{ "keys": ["super+enter"], "command": "build" },
+	{ "keys": ["super+shift+c"], "command": "plain_tasks_cancel", "context": [{"key": "selector", "operator": "equal", "operand": "text.todo" }] },
+	{ "keys": ["super+shift+d"], "command": "plain_tasks_complete","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+	{ "keys": ["alt+shift+f2"], "command": "select_all_bookmarks" },
+	{ "keys": ["super+shift+f2"], "command": "clear_bookmarks" },
+	{ "keys": ["super+tab"], "command": "next_view" },
+	{ "keys": ["super+shift+tab"], "command": "prev_view" },
+	{ "keys": ["super+shift+r"], "command": "reindent"},
+	{ "keys": ["super+r"], "command": "jsbeautify", "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json,source.jade"}] },
+	{ "keys": ["super+r"], "command": "astyleformat", "context": [{"key": "astyleformat_is_enabled", "operator": "equal", "operand": ""}] },
+	{ "keys": ["super+shift+alt+t"], "command": "open_terminal" }
+]

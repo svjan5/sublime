@@ -26,7 +26,7 @@
 		"__pycache__/**"
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-	"font_size": 9,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"
