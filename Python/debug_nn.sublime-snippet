@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+res = debug_nn([${2:}], self.create_feed_dict(${1:next(self.getBatches())})); pdb.set_trace()
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>debug_nn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>
