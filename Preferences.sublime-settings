@@ -26,15 +26,17 @@
 		"__pycache__/**"
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-	"font_size": 9,
+	"font_size": 12,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
 	"material_theme_arrow_folders": true,
 	"material_theme_big_fileicons": true,
 	"material_theme_bullet_tree_indicator": true,
 	"material_theme_compact_sidebar": true,
+	"scroll_past_end": true,
 	"tab_size": 8,
 	"theme": "Adaptive.sublime-theme",
 	"word_wrap": "auto"

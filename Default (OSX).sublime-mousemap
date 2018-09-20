@@ -1,0 +1,4 @@
+[
+    { "button": "scroll_down", "modifiers": ["super"], "command": "decrease_font_size" },
+    { "button": "scroll_up", "modifiers": ["super"], "command": "increase_font_size" }
+]
