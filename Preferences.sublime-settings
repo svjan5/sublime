@@ -24,7 +24,13 @@
 		"*.tga",
 		"*.ttf",
 		"*.zip",
-		"__pycache__/**"
+		"__pycache__/**",
+		"*.log",
+		"*.pkl",
+		"*.pickle",
+		"log/**",
+		"checkpoints/**",
+		"tf_board/**"
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"font_size": 12,
