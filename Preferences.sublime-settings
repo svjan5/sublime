@@ -23,17 +23,19 @@
 		"*.swf",
 		"*.tga",
 		"*.ttf",
+		"*.txt",
 		"*.zip",
 		"__pycache__/**",
 		"*.log",
 		"*.pkl",
 		"*.pickle",
 		"log/**",
+		"viz/**",
 		"checkpoints/**",
 		"tf_board/**"
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-	"font_size": 9,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"
