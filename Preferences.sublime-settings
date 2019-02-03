@@ -32,12 +32,31 @@
 		"log/**",
 		"viz/**",
 		"checkpoints/**",
-		"tf_board/**"
+		"tf_board/**",
+		"embeddings/**",
+		"data/**",
+		".ipynb_checkpoints/**"
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"checkpoints",
+		"tf_board",
+		"log",
+		"viz",
+		"data",
+		"embeddings",
+		".ipynb_checkpoints"
+	],
 	"font_size": 12,
 	"ignored_packages":
 	[
+		"Git",
+		"Git Formats",
 		"Vintage"
 	],
 	"material_theme_arrow_folders": true,
