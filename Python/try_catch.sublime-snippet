@@ -2,6 +2,7 @@
 	<content><![CDATA[
 except Exception as e:
 	print('\nException Cause: {}'.format(e.args[0]))
+	import pdb; pdb.set_trace()
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
