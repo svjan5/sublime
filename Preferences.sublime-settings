@@ -54,7 +54,7 @@
 		"embeddings",
 		".ipynb_checkpoints"
 	],
-	"font_size": 17,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"FuzzyFilePath",
@@ -70,6 +70,5 @@
 	"scroll_past_end": true,
 	"tab_size": 8,
 	"theme": "Adaptive.sublime-theme",
-	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "auto"
 }
