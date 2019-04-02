@@ -91,5 +91,12 @@
 	},
 	{ 
 		"keys": ["super+shift+1"], "command": "set_setting", "args": {"setting": "tab_size", "value": 8} 
-	}
+	},
+	{ 
+		"keys": ["super+shift+2"], "command": "set_setting", "args": {"setting": "tab_size", "value": 4} 
+	},
+	{
+		"no_outside_adj": null, "keys": ["super+shift+space"], "command": "bh_key",
+		"args": {"lines" : true, "plugin":{"type": ["__all__"], "command": "bh_modules.bracketselect"}}
+	},
 ]

@@ -58,7 +58,6 @@
 	"ignored_packages":
 	[
 		"FuzzyFilePath",
-		"Git",
 		"Git Formats",
 		"Vintage"
 	],
