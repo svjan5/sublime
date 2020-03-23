@@ -2,8 +2,8 @@
 	<content><![CDATA[
 from pymongo.errors import BulkWriteError
 
-${1:c_dosa} 	= MongoClient('mongodb://10.24.28.${2:104}:27017/')
-main = ${1:c_dosa}['${3:}']['${4:}']
+c_comm 	= MongoClient('mongodb://128.2.208.80:27017/')
+main	= c_comm[${1:}][${2:}]
 
 bulk  = main.initialize_unordered_bulk_op()
 count = 0 

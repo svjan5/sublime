@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-c_comm 	= MongoClient('mongodb://128.2.208.80:27017/')
-main	= c_comm[${1:}][${2:}]
+import sys; sys.path.insert(0, '${1:/ssd-peda/shikhar/real_rel_gcn}')
+${2:}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>mongo_use</tabTrigger>
+	<tabTrigger>inc</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.python</scope>
 </snippet>

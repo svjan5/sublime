@@ -99,4 +99,12 @@
 		"no_outside_adj": null, "keys": ["super+shift+space"], "command": "bh_key",
 		"args": {"lines" : true, "plugin":{"type": ["__all__"], "command": "bh_modules.bracketselect"}}
 	},
+	{
+		"keys": ["alt+c"],
+		"command": "copy_with_spaces",
+	},
+	// {	
+	// 	"keys": ["shift+alt+c"], 
+	// 	"command": "toggle_fold_comments" 
+	// },
 ]

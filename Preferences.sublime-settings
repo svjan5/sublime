@@ -3,11 +3,16 @@
 	[
 		"Bhagavad",
 		"Gita",
-		"",
 		"sadhu",
 		"prasadam",
 		"Vedic",
-		"Shikhar"
+		"Shikhar",
+		"acharya",
+		"katha",
+		"adharma",
+		"Kaliyuga",
+		"Bhagavatam",
+		"anarthas"
 	],
 	"binary_file_patterns":
 	[
@@ -31,34 +36,42 @@
 		"*.pickle",
 		"log/**",
 		"viz/**",
+		"cache/**",
 		"checkpoints/**",
 		"tf_board/**",
 		"embeddings/**",
 		"data/**",
-		".ipynb_checkpoints/**"
+		"models/**",
+		".ipynb_checkpoints/**",
+		"__pycache__/**"
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
+		".pkl",
 		".git",
 		".hg",
 		"CVS",
 		"checkpoints",
 		"tf_board",
 		"torch_saved",
+		"cache",
 		"tmp_src",
 		"log",
 		"viz",
 		"data",
 		"embeddings",
-		".ipynb_checkpoints"
+		"models",
+		".ipynb_checkpoints",
+		"__pycache__"
 	],
-	"font_size": 12,
+	"font_size": 14,
 	"ignored_packages":
 	[
 		"FuzzyFilePath",
 		"Git Formats",
+		"SFTP",
 		"Vintage"
 	],
 	"material_theme_arrow_folders": true,
