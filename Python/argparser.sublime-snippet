@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-parser = argparse.ArgumentParser(description='${1:}')
-parser.add_argument('-x', default='')
+parser = argparse.ArgumentParser(description='')
+parser.add_argument('--${1:}', default=${1:})
 args = parser.parse_args()
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

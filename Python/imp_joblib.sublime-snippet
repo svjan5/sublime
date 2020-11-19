@@ -2,13 +2,14 @@
 	<content><![CDATA[
 
 def ${2:process_data}(pid, ${1:file_list}):
+	count = 0
 	${3:}
+	
+	count += 1
+	if count % 10000 == 0: print('Completed [{}] {}, {}'.format(pid, count, time.strftime("%d_%m_%Y") + '_' + time.strftime("%H:%M:%S")))
 
-def partition(lst, n):
-	division = len(lst) / float(n)
-	return [ lst[int(round(division * i)): int(round(division * (i + 1)))] for i in range(n) ]
 
-num_procs = 40
+num_procs = args.workers
 chunks    = partition(${1:file_list}, num_procs)
 data_list = Parallel(n_jobs = num_procs)(delayed(${2:process_data})(i, chunk) for i, chunk in enumerate(chunks))
 ]]></content>

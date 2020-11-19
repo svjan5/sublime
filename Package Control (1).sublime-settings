@@ -1,0 +1,47 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"Alignment",
+		"BracketHighlighter",
+		"C Improved",
+		"Compare Side-By-Side",
+		"Expand Selection to Quotes",
+		"Fold Comments",
+		"FuzzyFilePath",
+		"Hermes",
+		"HTML-CSS-JS Prettify",
+		"Inc-Dec-Value",
+		"Indent Size",
+		"IPython Notebook",
+		"Jekyll",
+		"Jinja2",
+		"LaTeXTools",
+		"Log Highlight",
+		"MagicPython",
+		"MarkdownPreview",
+		"Package Control",
+		"PackageResourceViewer",
+		"PackageSync",
+		"PlainTasks",
+		"Pretty JSON",
+		"Random Everything",
+		"ReIndent",
+		"SelectNextNumber",
+		"SFTP",
+		"SideBarEnhancements",
+		"SJSON",
+		"SmartMarkdown",
+		"SortBy",
+		"SublimeAStyleFormatter",
+		"Super Calculator",
+		"Text Pastry",
+		"TrailingSpaces",
+		"WordCount"
+	]
+}

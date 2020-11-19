@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-c_comm 	= MongoClient('mongodb://128.2.208.80:27017/')
+c_comm 	= MongoClient('mongodb://{}:{}/'.format('brandy.lti.cs.cmu.edu', 27017), username='vashishths', password='yogeshwara')
 main	= c_comm[${1:}][${2:}]
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

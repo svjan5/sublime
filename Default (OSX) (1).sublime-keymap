@@ -1,0 +1,110 @@
+[
+	{ "keys": ["super+k", "super+k"], "command": "toggle_side_bar" },
+	{ "keys": ["alt+d"], "command": "find_all_under" },
+	{ "keys": ["super+enter"], "command": "build" },
+	{ "keys": ["super+shift+c"], "command": "plain_tasks_cancel", "context": [{"key": "selector", "operator": "equal", "operand": "text.todo" }] },
+	{ "keys": ["super+shift+f2"], "command": "clear_bookmarks" },
+	{ "keys": ["super+shift+d"], "command": "plain_tasks_complete","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+	{ "keys": ["alt+shift+f2"], "command": "select_all_bookmarks" },
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+	{ "keys": ["super+shift+r"], "command": "reindent"},
+	{ "keys": ["super+r"], "command": "jsbeautify", "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json,source.jade"}] },
+	{ "keys": ["super+r"], "command": "astyleformat", "context": [{"key": "astyleformat_is_enabled", "operator": "equal", "operand": ""}] },
+	{ "keys": ["super+shift+alt+t"], "command": "open_terminal" },
+	{ "keys": ["super+shift+up"], "command": "swap_line_up" },
+	{ "keys": ["super+shift+down"], "command": "swap_line_down" },
+	{ "keys": ["super+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+	{ "keys": ["super+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
+	{ "keys": ["super+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+	{ "keys": ["super+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+	{ "keys": ["ctrl+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+	{ "keys": ["ctrl+right"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+	{ "keys": ["ctrl+shift+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+	{ "keys": ["ctrl+shift+right"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+	{ "keys": ["super+h"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+	{ "keys": ["super+shift+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["super+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
+	{ "keys": ["super+m"], "command": "move_to", "args": {"to": "brackets"} },
+	{ "keys": ["super+backspace"], "command": "delete_word", "args": { "forward": false, "sub_words": true } },
+	{ "keys": ["ctrl+super+up"], "command": "zoom" },
+	{ "keys": ["ctrl+super+down"], "command": "minimize" },
+
+	{ "keys": ["alt+1"], "command": "select_by_index", "args": { "index": 0 } },
+	{ "keys": ["alt+2"], "command": "select_by_index", "args": { "index": 1 } },
+	{ "keys": ["alt+3"], "command": "select_by_index", "args": { "index": 2 } },
+	{ "keys": ["alt+4"], "command": "select_by_index", "args": { "index": 3 } },
+	{ "keys": ["alt+5"], "command": "select_by_index", "args": { "index": 4 } },
+	{ "keys": ["alt+6"], "command": "select_by_index", "args": { "index": 5 } },
+	{ "keys": ["alt+7"], "command": "select_by_index", "args": { "index": 6 } },
+	{ "keys": ["alt+8"], "command": "select_by_index", "args": { "index": 7 } },
+	{ "keys": ["alt+9"], "command": "select_by_index", "args": { "index": 8 } },
+	{ "keys": ["alt+0"], "command": "select_by_index", "args": { "index": 9 } },
+
+	{ "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+	{ "keys": ["super+shift+["], "command": "fold" },
+	{ "keys": ["super+shift+]"], "command": "unfold" },
+	{ "keys": ["super+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },
+	{ "keys": ["super+down"], "command": "scroll_lines", "args": {"amount": -1.0 } },
+	{
+		"keys": ["alt+shift+1"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1]]
+		}
+	},
+	{
+		"keys": ["alt+shift+2"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{
+		"keys": ["alt+shift+3"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.33, 0.66, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
+		}
+	},
+	{
+		"keys": ["alt+shift+4"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.25, 0.5, 0.75, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1], [3, 0, 4, 1]]
+		}
+	},
+	{
+		 "keys": ["super+shift+e"], "command": "convert_spaces_to_tabs"
+	},
+	{ 
+		"keys": ["super+shift+1"], "command": "set_setting", "args": {"setting": "tab_size", "value": 8} 
+	},
+	{ 
+		"keys": ["super+shift+2"], "command": "set_setting", "args": {"setting": "tab_size", "value": 4} 
+	},
+	{
+		"no_outside_adj": null, "keys": ["super+shift+space"], "command": "bh_key",
+		"args": {"lines" : true, "plugin":{"type": ["__all__"], "command": "bh_modules.bracketselect"}}
+	},
+	{
+		"keys": ["alt+c"],
+		"command": "copy_with_spaces",
+	},
+	// {	
+	// 	"keys": ["shift+alt+c"], 
+	// 	"command": "toggle_fold_comments" 
+	// },
+]

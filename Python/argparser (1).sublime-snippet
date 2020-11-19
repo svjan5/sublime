@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+parser = argparse.ArgumentParser(description='${1:}')
+parser.add_argument('-x', default='')
+args = parser.parse_args()
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>imp_argparser</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>
